@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="XM recruitment task">
+    <test name="Test FE">
+        <classes>
+            <class name="frontend.tests.CompareStocksDataTest"/>
+        </classes>
+    </test>
+    <test name="Test BE">
+        <classes>
+            <class name="backend.tests.SWAPITest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
